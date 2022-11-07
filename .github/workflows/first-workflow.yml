@@ -7,4 +7,6 @@ jobs:
     - name: print greeting
       run: echo "Hello world"
     - name: print goodbye
-      run: echo "Goodbye. I'm Done"
+      run: |
+        echo "Goodbye. I'm Done"
+        echo "This is example of doing multiple command"
